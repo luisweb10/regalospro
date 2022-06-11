@@ -1,0 +1,56 @@
+[debug] [2021-12-19T08:07:41.847Z] ----------------------------------------------------------------------
+[debug] [2021-12-19T08:07:41.855Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2021-12-19T08:07:41.857Z] CLI Version:   9.10.2
+[debug] [2021-12-19T08:07:41.858Z] Platform:      win32
+[debug] [2021-12-19T08:07:41.858Z] Node Version:  v14.17.0
+[debug] [2021-12-19T08:07:41.862Z] Time:          Sun Dec 19 2021 02:07:41 GMT-0600 (hora estándar central)
+[debug] [2021-12-19T08:07:41.863Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-12-19T08:07:42.039Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-12-19T08:07:42.048Z] > authorizing via signed-in user (el.nuevo.luis.10@gmail.com)
+[debug] [2021-12-19T08:07:42.049Z] [iam] checking project cursos-9f861 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2021-12-19T08:07:42.242Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-19T08:07:42.247Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-19T08:07:43.111Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 19 Dec 2021 02:07:43 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-19T08:07:43.485Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/cursos-9f861:testIamPermissions  
+ {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2021-12-19T08:07:43.974Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Dec 2021 02:07:44 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","server-timing":"gfet4t7; dur=69","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-19T08:07:43.984Z] > refreshing access token with scopes: []
+[debug] [2021-12-19T08:07:43.986Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-19T08:07:44.285Z] <<< HTTP RESPONSE 200 {"cache-control":"no-cache, no-store, max-age=0, must-revalidate","pragma":"no-cache","expires":"Mon, 01 Jan 1990 00:00:00 GMT","date":"Sun, 19 Dec 2021 02:07:44 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-19T08:07:44.434Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/cursos-9f861 [none]
+[debug] [2021-12-19T08:07:44.915Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/cursos-9f861 200
+[debug] [2021-12-19T08:07:44.916Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/cursos-9f861 {"projectId":"cursos-9f861","projectNumber":"84931774507","displayName":"cursos","name":"projects/cursos-9f861","resources":{"hostingSite":"cursos-9f861","realtimeDatabaseInstance":"cursos-9f861","storageBucket":"cursos-9f861.appspot.com","locationId":"us-central"},"state":"ACTIVE"}
+[info] 
+[info] === Deploying to 'cursos-9f861'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2021-12-19T08:07:45.484Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2021-12-19T08:07:45.489Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-12-19T08:07:45.814Z] <<< HTTP RESPONSE 200 {"expires":"Mon, 01 Jan 1990 00:00:00 GMT","pragma":"no-cache","date":"Sun, 19 Dec 2021 02:07:46 GMT","cache-control":"no-cache, no-store, max-age=0, must-revalidate","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-12-19T08:07:45.853Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/cursos-9f861/versions  
+ {"config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2021-12-19T08:07:46.631Z] <<< HTTP RESPONSE 200 {"content-type":"application/json; charset=UTF-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","date":"Sun, 19 Dec 2021 02:07:46 GMT","server":"ESF","cache-control":"private","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[info] i  hosting[cursos-9f861]: beginning deploy... 
+[debug] [2021-12-19T08:07:47.999Z] Error: EPERM: operation not permitted, scandir 'C:/Users/luis/AppData/Local/Archivos temporales de Internet'
+    at Object.readdirSync (fs.js:1043:3)
+    at GlobSync._readdir (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:286:41)
+    at GlobSync._readdirInGlobStar (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:243:17)
+    at GlobSync._readdir (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:274:17)
+    at GlobSync._processReaddir (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:135:22)
+    at GlobSync._process (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:130:10)
+    at GlobSync._processGlobStar (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:378:10)
+    at GlobSync._process (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:128:10)
+    at GlobSync._processGlobStar (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:381:10)
+    at GlobSync._process (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:128:10)
+    at GlobSync._processGlobStar (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:381:10)
+    at GlobSync._process (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:128:10)
+    at new GlobSync (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:46:10)
+    at Function.globSync [as sync] (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\glob\sync.js:24:10)
+    at listFiles (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\listFiles.js:6:19)
+    at _runDeploys (C:\Users\luis\AppData\Roaming\npm\node_modules\firebase-tools\lib\deploy\hosting\deploy.js:31:23)
+[error] 
+[error] Error: An unexpected error has occurred.
