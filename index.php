@@ -39,7 +39,7 @@
                         <img src="assets/images/whatsapp-image-2021-12-10-at-7.06.08-pm-1-121x121.jpg" alt="Mobirise" style="height: 3.8rem;">
                     </a>
                 </span>
-                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="https://mobiri.se">souvenirs</a></span>
+                <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-7" href="/">souvenirs</a></span>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <div class="hamburger">
