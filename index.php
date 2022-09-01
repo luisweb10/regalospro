@@ -35,7 +35,7 @@
         <div class="container">
             <div class="navbar-brand">
                 <span class="navbar-logo">
-                    <a href="https://mobiri.se">
+                    <a href="/">
                         <img src="assets/images/whatsapp-image-2021-12-10-at-7.06.08-pm-1-121x121.jpg" alt="Mobirise" style="height: 3.8rem;">
                     </a>
                 </span>
